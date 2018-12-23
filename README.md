@@ -42,3 +42,15 @@ At the moment, every guy has a component class that is responsible for moving th
 
 ### TG 12. Added Instanced material for 2 Guards. 
 Each guard now have different colors.
+
+### TG 13. Making AI_sense for patrolling Guards. 
+Now they see each other and player. They reporting in Console log whoom they see and what sence they used (seing, hearing and etc).
+
+### TG 14. Guards hearing player jumps and reporting it to Console and to screen. 
+Hearing done with Blueprints.
+
+### TG 15. Added Free Animation Starter Pack from Unreal MarketPlace.
+
+### TG 16. Added animation Blueprint from starter pack to our Guards. 
+Now they moving along with rifles in hands.
+Unfortunately, I have not yet managed to display the guns in the correct position in the hands of the mesh. In addition, the guns are not displayed during the game (during the animation). This will be fixed later.
