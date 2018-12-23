@@ -18,13 +18,27 @@ Using Git LFS (Large File Support)
 ### 3 Marketing & Markdown
 Deleted some editor settings
 
-### 5  Added some staff (ramp, staircase, 2nd floor) to main level map
+### 5  Added some staff to level map. 
+Added(ramp, staircase, 2nd floor) to main level map
 
-### 6  Added Nav Mesh Volume to main level map, added Third Person Character to project and placed it to level map.
+### 6  Added Nav Mesh Volume and Third Person Character to main level map. 
+Added Nav Mesh Volume
+Added Third Person Character to project and placed it to level map.
 
 ### 7 Added Behavior Tree and BlackBoard Data
 
-### 8 Added 2 patrol points, Third person character now patrolling (running) between 2 points!
+### 8 Added 2 patrol points and patrolling behavior (Blueprints).
+Third person character now patrolling (running) between 2 points!
 
 ### 9 Added Blueprint functions to sequentially move along an array of patrol points defined on the map to each platoon soldier.
 Now many platoon soldiers run endlessly around the map, each moving from point to point, each with its own set of points.
+
+### TG 10. Blueprint logic has been moved to C ++. 
+C ++ classes and territory patrol logic have been created. 
+Now Guards Patrolling territory of level map, their logic controlled by C++
+
+### TG 11. C ++ logic has been moved from the inherited classes to the component system. 
+At the moment, every guy has a component class that is responsible for moving the guy.
+
+### TG 12. Added Instanced material for 2 Guards. 
+Each guard now have different colors.
