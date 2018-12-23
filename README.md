@@ -17,3 +17,14 @@ Using Git LFS (Large File Support)
 
 ### 3 Marketing & Markdown
 Deleted some editor settings
+
+### 5  Added some staff (ramp, staircase, 2nd floor) to main level map
+
+### 6  Added Nav Mesh Volume to main level map, added Third Person Character to project and placed it to level map.
+
+### 7 Added Behavior Tree and BlackBoard Data
+
+### 8 Added 2 patrol points, Third person character now patrolling (running) between 2 points!
+
+### 9 Added Blueprint functions to sequentially move along an array of patrol points defined on the map to each platoon soldier.
+Now many platoon soldiers run endlessly around the map, each moving from point to point, each with its own set of points.
