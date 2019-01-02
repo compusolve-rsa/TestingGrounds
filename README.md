@@ -54,3 +54,9 @@ Hearing done with Blueprints.
 ### TG 16. Added animation Blueprint from starter pack to our Guards. 
 Now they moving along with rifles in hands.
 Unfortunately, I have not yet managed to display the guns in the correct position in the hands of the mesh. In addition, the guns are not displayed during the game (during the animation). This will be fixed later.
+
+### TG 17. Changed Guards BluePrint Class to simple class from animation pack. 
+Now Guards Blueprints classes have more simplicity and university.
+
+### TG 18. Refactoring file folder content system. 
+Now folders organized much better and nice may. Deleted trash content.
