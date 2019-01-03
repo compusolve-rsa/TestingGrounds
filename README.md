@@ -66,3 +66,7 @@ Now we have folder "Player", where we moved C++ class with dependencies.
 
 ### TG 20. More Refactoring C++ class source structure.
 In folder "Source", now we have folders, which reflect the structure of the project.
+
+### TG 21. Added Gun to arms of our Guards.
+Now they run, crouch and carry guns in arms.
+Added socked to skeleton of Npc blueprint, where gun mesh attached. Also removed trash staff.
