@@ -60,3 +60,9 @@ Now Guards Blueprints classes have more simplicity and university.
 
 ### TG 18. Refactoring file folder content system. 
 Now folders organized much better and nice may. Deleted trash content.
+
+### TG 19. Refactoring C++ class source structure.
+Now we have folder "Player", where we moved C++ class with dependencies.
+
+### TG 20. More Refactoring C++ class source structure.
+In folder "Source", now we have folders, which reflect the structure of the project.
