@@ -77,3 +77,5 @@ Now they are walking along the route aiming their weapons along the course.
 ### TG 23. Added AimOffset to do smoth animation when Guard aiming up and down with gun.
 This animation offset presented only in Editor. In future I will use it for Guards animations.
 
+### TG 24. Added aiming behavior to our Guards.
+Now they moving across their patrol route, aiming at starting point of player.
