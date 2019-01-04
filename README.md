@@ -83,3 +83,7 @@ Now they moving across their patrol route, aiming at starting point of player.
 ### TG 24. Now Guards aiming at player in RealTime!
 When player changing its location, Guards aiming their Guns at player and walking along their patrol route.
 Changed Blueprints of AI to do this.
+
+### TG 25. Now Guards Chasing Player when they see him.
+When they have no player in their sense, they patrolling route.
+This is simple 2 branch behavior for our Guards.
