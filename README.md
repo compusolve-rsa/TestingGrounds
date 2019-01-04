@@ -79,3 +79,7 @@ This animation offset presented only in Editor. In future I will use it for Guar
 
 ### TG 24. Added aiming behavior to our Guards.
 Now they moving across their patrol route, aiming at starting point of player.
+
+### TG 24. Now Guards aiming at player in RealTime!
+When player changing its location, Guards aiming their Guns at player and walking along their patrol route.
+Changed Blueprints of AI to do this.
