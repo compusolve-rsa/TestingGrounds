@@ -87,3 +87,6 @@ Changed Blueprints of AI to do this.
 ### TG 25. Now Guards Chasing Player when they see him.
 When they have no player in their sense, they patrolling route.
 This is simple 2 branch behavior for our Guards.
+
+### TG 26. Now Guards, when they chasing Player and lost sight of player, they move to last known location of player.
+If they don't see player, they moving along their patrolling route.
