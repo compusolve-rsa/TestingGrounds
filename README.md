@@ -94,3 +94,6 @@ If they don't see player, they moving along their patrolling route.
 ### TG 27. Fixed bug when 2 Guards chased each other and don't do anything after that.
 Now Guards ignore each other, patrolling route and chaising player.
 
+### TG 28. Created a Gun class. A Gun instance now created at begin play in hands of a player.
+In future I will use fire function of Gun in player hands.
+
