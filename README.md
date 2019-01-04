@@ -70,3 +70,7 @@ In folder "Source", now we have folders, which reflect the structure of the proj
 ### TG 21. Added Gun to arms of our Guards.
 Now they run, crouch and carry guns in arms.
 Added socked to skeleton of Npc blueprint, where gun mesh attached. Also removed trash staff.
+
+### TG 22. Added animation BlenSpace "Walking_Ironsight" for our Guards.
+Now they are walking along the route aiming their weapons along the course.
+
