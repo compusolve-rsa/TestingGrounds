@@ -74,3 +74,6 @@ Added socked to skeleton of Npc blueprint, where gun mesh attached. Also removed
 ### TG 22. Added animation BlenSpace "Walking_Ironsight" for our Guards.
 Now they are walking along the route aiming their weapons along the course.
 
+### TG 23. Added AimOffset to do smoth animation when Guard aiming up and down with gun.
+This animation offset presented only in Editor. In future I will use it for Guards animations.
+
