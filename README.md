@@ -102,3 +102,7 @@ Gun has its own C++ class with functions. Class FirstPersonCharacter calls Fire 
 
 ### TG 29. Moved all large file assets in Static folder.
 This will help to do faster commits with Git LFS system.
+
+### TG 30. Updated .gitattributes to track only static sub folder and all it content.
+Now git LFS give only files in Static folder. All other staff in other folders will give Git commits.
+Remind, in future, all bif files I will take to Static folder.
