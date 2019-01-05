@@ -97,5 +97,8 @@ Now Guards ignore each other, patrolling route and chaising player.
 ### TG 28. Created a Gun C++ class. A Gun instance now created at begin play in hands of a player.
 In future I will use fire function of Gun in player hands.
 
-### TG 28. Now our player can fire projectile from gun in hands. Fire animations, sound, projectile physics also included.
+### TG 28.1. Now our player can fire projectile from gun in hands. Fire animations, sound, projectile physics also included.
 Gun has its own C++ class with functions. Class FirstPersonCharacter calls Fire function from Gun class.
+
+### TG 29. Moved all large file assets in Static folder.
+This will help to do faster commits with Git LFS system.
