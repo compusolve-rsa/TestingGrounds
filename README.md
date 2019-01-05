@@ -115,3 +115,10 @@ Now Player hands hold arms properly.
 
 ### TG 33. Corrected bug with aiming of Guards.
 Now they not aiming their guns when patrolling and not percepting enemy. When they percept enemy (see or hear noise), they chase them with aiming Guns on it. When they lost perception, they moving to last seen location and after seconds they run to patrolling duty.
+
+### TG 34. Now Guards using Shooting animation when chasing player.
+Added blend poses in animation graph. Under the terms of the character can run, go aiming, go shooting, run, shooting from the hip. And all this thanks ещ blend poses.
+
+
+
+
