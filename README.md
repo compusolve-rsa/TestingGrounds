@@ -106,3 +106,6 @@ This will help to do faster commits with Git LFS system.
 ### TG 30. Updated .gitattributes to track only static sub folder and all it content.
 Now git LFS give only files in Static folder. All other staff in other folders will give Git commits.
 Remind, in future, all bif files I will take to Static folder.
+
+### TG 31. Moved some LFS assets to Dynamic folder from Static folder.
+This assets will frequently changing in future. LFS will not track this assets. This assets will move to Git commits directly.
