@@ -94,6 +94,8 @@ If they don't see player, they moving along their patrolling route.
 ### TG 27. Fixed bug when 2 Guards chased each other and don't do anything after that.
 Now Guards ignore each other, patrolling route and chaising player.
 
-### TG 28. Created a Gun class. A Gun instance now created at begin play in hands of a player.
+### TG 28. Created a Gun C++ class. A Gun instance now created at begin play in hands of a player.
 In future I will use fire function of Gun in player hands.
 
+### TG 28. Now our player can fire projectile from gun in hands. Fire animations, sound, projectile physics also included.
+Gun has its own C++ class with functions. Class FirstPersonCharacter calls Fire function from Gun class.
