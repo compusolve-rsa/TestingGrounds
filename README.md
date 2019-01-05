@@ -109,3 +109,6 @@ Remind, in future, all bif files I will take to Static folder.
 
 ### TG 31. Moved some LFS assets to Dynamic folder from Static folder.
 This assets will frequently changing in future. LFS will not track this assets. This assets will move to Git commits directly.
+
+### TG 32. Corrected Inverse Kinematics of our Player Blueprint.
+Now Player hands hold arms properly.
