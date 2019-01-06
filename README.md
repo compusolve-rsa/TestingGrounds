@@ -126,3 +126,5 @@ Also refactor animation Blueprint functions.
 ### TG 36. Now player and Guards have one Blueprint with First and Fird Person Camera, firing and death animations.
 Player can Die and took damage, same as Guards.
 
+### TG 37. Spawning Terrain in the GameMode for loop.
+Now at the start of the game we spawning terrain in 10 tiles.
