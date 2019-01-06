@@ -119,6 +119,9 @@ Now they not aiming their guns when patrolling and not percepting enemy. When th
 ### TG 34. Now Guards using Shooting animation when chasing player.
 Added blend poses in animation graph. Under the terms of the character can run, go aiming, go shooting, run, shooting from the hip. And all this thanks ещ blend poses.
 
+### TG 35. Added damage to health of Guards and death animation to them.
+Now player can shoot at Guards and can damage them to death.
+Also refactor animation Blueprint functions.
 
 
 
