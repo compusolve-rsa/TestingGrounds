@@ -123,5 +123,6 @@ Added blend poses in animation graph. Under the terms of the character can run, 
 Now player can shoot at Guards and can damage them to death.
 Also refactor animation Blueprint functions.
 
-
+### TG 36. Now player and Guards have one Blueprint with First and Fird Person Camera, firing and death animations.
+Player can Die and took damage, same as Guards.
 
