@@ -137,4 +137,10 @@ So we have an endless runner with generating Tiles, Garbage collector of old Til
 ### TG 40. Merging Our TP and FP Files in project Structure. Repaired bug shooting weapons.
 Now shooting take projectile in normal direction, causes right damage to Guards, also accompanying messages of projectile hit events are displayed.
 
-### TG 41. Maked Dynamic NavMesh volume. Now Guards moving along their patrol route. Earlier they can't move because our static Navmesh can't work with dynamic Tile.
+### TG 41. Maked Dynamic NavMesh volume. Now Guards moving along their patrol route. 
+Earlier they can't move because our static Navmesh can't work with dynamic Tile.
+
+### TG 42. Redid AI Blueprints to method called SUDO code.
+Now they much simpler to read at high level of abstraction.
+
+
