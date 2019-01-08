@@ -13,7 +13,7 @@ EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent& Own
 	auto PatrolRoute = ControlledPawn->FindComponentByClass<UPatrolRoute>();
 	if (!ensure(PatrolRoute)) { return EBTNodeResult::Failed; };
 
-	// Warn about empty petrol routes
+	// Warn about empty patrol routes
 	auto PatrolPoints = PatrolRoute->GetPatrolPoints();
 	if (PatrolPoints.Num() == 0) 
 	{

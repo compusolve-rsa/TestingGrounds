@@ -133,3 +133,6 @@ Now at the start of the game we spawning terrain in 10 tiles.
 
 ### TG 39. Now we have Garbage collector, that delete old Tiles, that we can't move to. In ahead, generating new 2 Tiles, that we can see and move to.
 So we have an endless runner with generating Tiles, Garbage collector of old Tiles.
+
+### TG 40. Merging Our TP and FP Files in project Structure. Repaired bug shooting weapons.
+Now shooting take projectile in normal direction, causes right damage to Guards, also accompanying messages of projectile hit events are displayed.
