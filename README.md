@@ -147,3 +147,6 @@ Now they much simpler to read at high level of abstraction.
 ### TG 43. Exclude *_BuildData.uasset from Git, reinstating the gun child actor.
 This is do for physical Gun Architector instead of component architecture.
 Also renamed some assets to do [UE4 Style Guide](https://github.com/Allar/ue4-style-guide)
+
+### TG 44. Converting a Character BP to C++
+Now we have C++ class of Character with fire function, calling Fire function of Gun C++ class
