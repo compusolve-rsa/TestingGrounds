@@ -129,7 +129,8 @@ Player can Die and took damage, same as Guards.
 ### TG 37. Proceduraly spawning Terrain in the GameMode for loop.
 Now at the start of the game we spawning terrain in 10 tiles.
 
-### TG 38. Now when entering the next tile, the previous tile is cut off by the red barrier. Ahead, the next tile is separated from the current tile by a green barrier.
+### TG 38. Now when entering the next tile, the previous tile is cut off by the red barrier. 
+Ahead, the next tile is separated from the current tile by a green barrier.
 
 ### TG 39. Now we have Garbage collector, that delete old Tiles, that we can't move to. In ahead, generating new 2 Tiles, that we can see and move to.
 So we have an endless runner with generating Tiles, Garbage collector of old Tiles.
@@ -143,4 +144,6 @@ Earlier they can't move because our static Navmesh can't work with dynamic Tile.
 ### TG 42. Redid AI Blueprints to method called SUDO code.
 Now they much simpler to read at high level of abstraction.
 
-
+### TG 43. Exclude *_BuildData.uasset from Git, reinstating the gun child actor.
+This is do for physical Gun Architector instead of component architecture.
+Also renamed some assets to do [UE4 Style Guide](https://github.com/Allar/ue4-style-guide)
