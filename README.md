@@ -150,3 +150,7 @@ Also renamed some assets to do [UE4 Style Guide](https://github.com/Allar/ue4-st
 
 ### TG 44. Converting a Character BP to C++
 Now we have C++ class of Character with fire function, calling Fire function of Gun C++ class
+
+### TG 44. Redoing Architecture of calling Fire function.
+Earlier fire function called fron animation event. Now fire function called from method in C++ Character class.
+Now our Guards can do rapid, very rapid firing!
