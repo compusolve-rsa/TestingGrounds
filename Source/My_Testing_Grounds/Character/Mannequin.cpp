@@ -7,6 +7,10 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/InputSettings.h"
+#include "GameFramework/Character.h"
+#include "Engine/EngineTypes.h"
+#include "Public/HAL/Platform.h"
+
 
 
 // Sets default values
@@ -40,10 +44,20 @@ void AMannequin::BeginPlay()
 		return;
 	}
 	Gun = GetWorld()->SpawnActor<AGun>(GunBlueprint);
-	Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint")); //Attach gun mesh component to Skeleton, doing it here because the skelton is not yet created in the constructor
-	Gun->AnimInstance = Mesh1P->GetAnimInstance();
 
-	if (InputComponent != NULL) {
+	if (IsPlayerControlled()) {
+		Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true),
+			TEXT("GripPoint")); //Attach gun mesh component to Skeleton, doing it here because the skelton is not yet created in the constructor
+	}
+	else {
+		Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), 
+			TEXT("GripPoint")); //Attach gun mesh component to Skeleton Mesh (Third Person)
+	}
+
+	Gun->AnimInstance1P = GetMesh()->GetAnimInstance(); // get animation instance of First Person (1P) mesh
+	Gun->AnimInstance3P = GetMesh()->GetAnimInstance(); // get animation instance of Third Person (3P) mesh
+
+	if (InputComponent != nullptr) {
 		InputComponent->BindAction("Fire", IE_Pressed, this, &AMannequin::PullTrigger);
 	};
 }
@@ -69,6 +83,18 @@ void AMannequin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	//PlayerInputComponent->BindAction("Fire", IE_Pressed, Gun, &AGun::OnFire);
 
 }
+
+void AMannequin::UnPossessed() {
+	//Super::UnPossessed();
+
+	if (IsPlayerControlled()) {
+		if (Gun && GetMesh()) {
+			Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true),
+				TEXT("GripPoint")); //Attach gun mesh component to Skeleton Mesh (Third Person)
+		};
+	}
+}
+
 
 void AMannequin::PullTrigger()
 {

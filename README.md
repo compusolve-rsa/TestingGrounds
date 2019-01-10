@@ -156,3 +156,7 @@ Earlier fire function called fron animation event. Now fire function called from
 Now our Guards can do rapid, very rapid firing!
 
 ### TG 46. Our Guards now make Burst firing 3 bullets in rapid random time sequence.
+
+### TG 47. Reattaching the Gun to Blueprint skeletal mesh socket with C++ class Manneguin.
+Now our Guards holding a weapon in their hands with proper animation at walking, firing and dying!
+Our player hold weapon in hands when firing, dying, lying on the ground from the third person
