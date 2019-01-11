@@ -160,3 +160,8 @@ Now our Guards can do rapid, very rapid firing!
 ### TG 47. Reattaching the Gun to Blueprint skeletal mesh socket with C++ class Manneguin.
 Now our Guards holding a weapon in their hands with proper animation at walking, firing and dying!
 Our player hold weapon in hands when firing, dying, lying on the ground from the third person
+
+### TG 48. Added Free Assets from Unreal MarketPlace for meshes of ground, flora, rocks, barrels, cans, bags and other industrial items.
+Also added some staff to main level for testing purposes.
+
+
