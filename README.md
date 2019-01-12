@@ -167,6 +167,8 @@ Also added some staff to main level for testing purposes.
 ### TG 49. Spawning Bluepint meshes in the Tile at random locations. 
 Now we have nice random locations!
 
+### TG 50. Spawning Debug Trace Channel Spheres to test debug collisions of meshes.
+Now we see in spawning Tiles debug spheres. This spheres we wil use later for more intelegent procedural spawning objects.
 
 
 
