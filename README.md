@@ -164,4 +164,9 @@ Our player hold weapon in hands when firing, dying, lying on the ground from the
 ### TG 48. Added Free Assets from Unreal MarketPlace for meshes of ground, flora, rocks, barrels, cans, bags and other industrial items.
 Also added some staff to main level for testing purposes.
 
+### TG 49. Spawning Bluepint meshes in the Tile at random locations. 
+Now we have nice random locations!
+
+
+
 
