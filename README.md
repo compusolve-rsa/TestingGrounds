@@ -1,3 +1,11 @@
+<p align="center">
+  This text available in different languages.
+</p>
+<p align="center">
+  <span><a href="https://github.com/pvlunegov/TestingGrounds/blob/master/README.md">English</a></span> |
+  <a href="https://github.com/pvlunegov/TestingGrounds/blob/master/README.RU.md">???????</a>
+</p>
+
 # TestingGrounds
 FPS Game made under Unreal 4 with C++ &amp; Blueprints
 
@@ -6,7 +14,15 @@ This project is based on the course ["Unreal Engine Developer Course - Section 5
 [The original course](https://github.com/UnrealCourse/05_TestingGrounds) was developed on Unreal version 4.12 - 4.13.
 This project is based on Unreal 4.21
 
-## In This Section:
+## Some screenshots from latest commits:
+
+| Some screnshots | Some screnshots |
+| --- | --- |
+| `Guards chasing and firing at player Guards patrolling and walking their route. When Guards see player (player close to) or hear player (Player jumps or firing) they chasing him, firing in run. When they close to player, they stoping and firing. Guards firing 3 burst fire in random duration. ` ![guards chasing and firing at player](https://user-images.githubusercontent.com/28482025/51083450-4c793800-173c-11e9-8735-79fe88a0bc37.png) | `Guards may die (player shoots them) falling to the ground holding weapons in their hands` ![guards may die falling to the ground in arms](https://user-images.githubusercontent.com/28482025/51083697-f908e900-173f-11e9-92e5-60413846e116.png) |
+| `Player dying falls to the ground with a weapon in hand. The third-person mesh is lying on the ground. First-person mesh hangs above ground. So far, there has not been worked out a method of changing from a first-person view to a third-person view. Meshes themselves work correctly with all the animation. As you noticed, the Guardians have meshes from both the first person and the third person. Moreover, the player and the guard have same Blueprint.`![player dying falls to the ground with a weapon in hand](https://user-images.githubusercontent.com/28482025/51084132-da5a2080-1746-11e9-9a37-6e42fc44eae4.png) | `Meshes (Trees, barrels, sacks ant etc.) spawning at random location in a Tile. Tile is place fixed sizes with walls. Game spawning infinite amount of Tiles. Player can move through this Tiles.` ![spawning meshes and debug spheres png](https://user-images.githubusercontent.com/28482025/51083466-aaa61b00-173c-11e9-884c-4bf12a8a891c.png) |
+| `Green transparent barrier dividing Tiles. Player can move through it to next Tile. When moving to next Tile, Game generating forward following Tile with random generating meshes at correct locations do not intersect each other.` ![green barrier dividing tiles](https://user-images.githubusercontent.com/28482025/51083723-4be2a080-1740-11e9-8eaa-1e6a349f1592.png) | `Red barrier dividing Tiles. Player can not move through it to the past Tile. Player can move only to forward Tile.` ![red barrier dividing tiles player can not move through it](https://user-images.githubusercontent.com/28482025/51083728-759bc780-1740-11e9-9152-021def0f9af3.png) |
+
+## Comments for Commits:
 
 ### 1 Testing Grounds Introduction
 This is first commit, I make new C++ project in Unreal Editor 4.21
@@ -26,9 +42,6 @@ Added Nav Mesh Volume
 Added Third Person Character to project and placed it to level map.
 
 ### 7 Added Behavior Tree and BlackBoard Data
-
-### 8 Added 2 patrol points and patrolling behavior (Blueprints).
-Third person character now patrolling (running) between 2 points!
 
 ### 9 Added Blueprint functions to sequentially move along an array of patrol points defined on the map to each platoon soldier.
 Now many platoon soldiers run endlessly around the map, each moving from point to point, each with its own set of points.
@@ -105,7 +118,7 @@ This will help to do faster commits with Git LFS system.
 
 ### TG 30. Updated .gitattributes to track only static sub folder and all it content.
 Now git LFS give only files in Static folder. All other staff in other folders will give Git commits.
-Remind, in future, all bif files I will take to Static folder.
+Remind, in future, all big files I will take to Static folder.
 
 ### TG 31. Moved some LFS assets to Dynamic folder from Static folder.
 This assets will frequently changing in future. LFS will not track this assets. This assets will move to Git commits directly.
@@ -117,7 +130,7 @@ Now Player hands hold arms properly.
 Now they not aiming their guns when patrolling and not percepting enemy. When they percept enemy (see or hear noise), they chase them with aiming Guns on it. When they lost perception, they moving to last seen location and after seconds they run to patrolling duty.
 
 ### TG 34. Now Guards using Shooting animation when chasing player.
-Added blend poses in animation graph. Under the terms of the character can run, go aiming, go shooting, run, shooting from the hip. And all this thanks ещ blend poses.
+Added blend poses in animation graph. Under the terms of the character can run, go aiming, go shooting, run, shooting from the hip. And all this thanks ?? blend poses.
 
 ### TG 35. Added damage to health of Guards and death animation to them.
 Now player can shoot at Guards and can damage them to death.
@@ -152,7 +165,7 @@ Also renamed some assets to do [UE4 Style Guide](https://github.com/Allar/ue4-st
 Now we have C++ class of Character with fire function, calling Fire function of Gun C++ class
 
 ### TG 45. Redoing Architecture of calling Fire function.
-Earlier fire function called fron animation event. Now fire function called from method in C++ Character class.
+Earlier fire function called from animation event. Now fire function called from method in C++ Character class.
 Now our Guards can do rapid, very rapid firing!
 
 ### TG 46. Our Guards now make Burst firing 3 bullets in rapid random time sequence.
@@ -170,6 +183,5 @@ Now we have nice random locations!
 ### TG 50. Spawning Debug Trace Channel Spheres to test debug collisions of meshes.
 Now we see in spawning Tiles debug spheres. This spheres we wil use later for more intelegent procedural spawning objects.
 
-### TG 51. Fixed bugs, missing some assets in the Blueprint assembly.
+### TG 51. Fixed bugs, caused by missing some assets in the Blueprint assembly.
 Unreal Editor crashes when starting a game. Now all ok, bugs fixed, starting game works correctly.
-
