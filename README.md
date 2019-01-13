@@ -11,14 +11,8 @@ This project is based on Unreal 4.21
 | Some screnshots | Some screnshots |
 | --- | --- |
 | `Guards chasing and firing at player Guards patrolling and walking their route. When Guards see player (player close to) or hear player (Player jumps or firing) they chasing him, firing in run. When they close to player, they stoping and firing. Guards firing 3 burst fire in random duration. ` ![guards chasing and firing at player](https://user-images.githubusercontent.com/28482025/51083450-4c793800-173c-11e9-8735-79fe88a0bc37.png) | `Guards may die falling to the ground holding weapons in their hands` ![guards may die falling to the ground in arms](https://user-images.githubusercontent.com/28482025/51083697-f908e900-173f-11e9-92e5-60413846e116.png) |
-| `Meshes (Trees, barrels, sacks ant etc.) spawning at random location in a Tile. Tile is place fixed sizes with walls. Game spawning infinite amount of Tiles. Player can move through this Tiles.` ![spawning meshes and debug spheres png](https://user-images.githubusercontent.com/28482025/51083466-aaa61b00-173c-11e9-884c-4bf12a8a891c.png) | some screenshot |
+| `Player dying falls to the ground with a weapon in hand. The third-person mesh is lying on the ground. First-person mesh hangs above ground. So far, there has not been worked out a method of changing from a first-person view to a third-person view. Meshes themselves work correctly with all the animation. As you noticed, the Guardians have meshes from both the first person and the third person. Moreover, the player and the guard have same Blueprint. Guards `![player dying falls to the ground with a weapon in hand](https://user-images.githubusercontent.com/28482025/51084132-da5a2080-1746-11e9-9a37-6e42fc44eae4.png) | `Meshes (Trees, barrels, sacks ant etc.) spawning at random location in a Tile. Tile is place fixed sizes with walls. Game spawning infinite amount of Tiles. Player can move through this Tiles.` ![spawning meshes and debug spheres png](https://user-images.githubusercontent.com/28482025/51083466-aaa61b00-173c-11e9-884c-4bf12a8a891c.png) |
 | `Green barrier dividing Tiles. Player can move through it to next Tile` ![green barrier dividing tiles](https://user-images.githubusercontent.com/28482025/51083723-4be2a080-1740-11e9-8eaa-1e6a349f1592.png) | `Red barrier dividing Tiles. Player can not move through it` ![red barrier dividing tiles player can not move through it](https://user-images.githubusercontent.com/28482025/51083728-759bc780-1740-11e9-9152-021def0f9af3.png) |
-
-
-
-
-
-
 
 ## Comments for Commits:
 
