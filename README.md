@@ -8,7 +8,16 @@ This project is based on Unreal 4.21
 
 ## Some screenshots from latest commits:
 ### 1 guards chasing and firing at player
+Guards patrolling and walking their route. 
+When Guards see player (player close to) or hear player (Player jumps or firing) they chasing him, firing in run. When they close to player, they stoping and firing.
+Guards firing 3 burst fire in random duration.
 ![guards chasing and firing at player](https://user-images.githubusercontent.com/28482025/51083450-4c793800-173c-11e9-8735-79fe88a0bc37.png)
+
+### 2 Spawning meshes and debug spheres
+Meshes (Trees, barrels, sacks ant etc.) spawning at random location in a Tile.
+Tile is place fixed sizes with walls. 
+Game spawning infinite amount of Tiles. Player can move through this Tiles.
+![spawning meshes and debug spheres png](https://user-images.githubusercontent.com/28482025/51083466-aaa61b00-173c-11e9-884c-4bf12a8a891c.png)
 
 ## In This Section:
 
