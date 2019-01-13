@@ -1,3 +1,11 @@
+<p align="center">
+  This text available in different languages.
+</p>
+<p align="center">
+  <span><a href="https://github.com/pvlunegov/TestingGrounds/blob/master/README.md">English</a></span> |
+  <a href="https://github.com/pvlunegov/TestingGrounds/blob/master/README.RU.md">Русский</a>
+</p>
+
 # TestingGrounds
 FPS Game made under Unreal 4 with C++ &amp; Blueprints
 
