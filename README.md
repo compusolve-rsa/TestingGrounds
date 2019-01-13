@@ -6,6 +6,10 @@ This project is based on the course ["Unreal Engine Developer Course - Section 5
 [The original course](https://github.com/UnrealCourse/05_TestingGrounds) was developed on Unreal version 4.12 - 4.13.
 This project is based on Unreal 4.21
 
+## Some screenshots from latest commits:
+### 1 guards chasing and firing at player
+![guards chasing and firing at player](https://user-images.githubusercontent.com/28482025/51083450-4c793800-173c-11e9-8735-79fe88a0bc37.png)
+
 ## In This Section:
 
 ### 1 Testing Grounds Introduction
