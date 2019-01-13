@@ -3,7 +3,11 @@
 </p>
 <p align="center">
   <span><a href="https://github.com/pvlunegov/TestingGrounds/blob/master/README.md">English</a></span> |
+<<<<<<< HEAD
   <a href="https://github.com/pvlunegov/TestingGrounds/blob/master/README.RU.md">???????</a>
+=======
+  <a href="https://github.com/pvlunegov/TestingGrounds/blob/master/README.RU.md">Русский</a>
+>>>>>>> 68c59a6078faf3685c451e76a61d4eaa93885438
 </p>
 
 # TestingGrounds
@@ -184,4 +188,8 @@ Now we have nice random locations!
 Now we see in spawning Tiles debug spheres. This spheres we wil use later for more intelegent procedural spawning objects.
 
 ### TG 51. Fixed bugs, caused by missing some assets in the Blueprint assembly.
+<<<<<<< HEAD
 Unreal Editor crashes when starting a game. Now all ok, bugs fixed, starting game works correctly.
+=======
+Unreal Editor crashes when starting a game. Now all ok, bugs fixed, starting game works correctly.
+>>>>>>> 68c59a6078faf3685c451e76a61d4eaa93885438
