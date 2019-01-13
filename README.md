@@ -7,17 +7,11 @@ This project is based on the course ["Unreal Engine Developer Course - Section 5
 This project is based on Unreal 4.21
 
 ## Some screenshots from latest commits:
-### 1 guards chasing and firing at player
-Guards patrolling and walking their route. 
-When Guards see player (player close to) or hear player (Player jumps or firing) they chasing him, firing in run. When they close to player, they stoping and firing.
-Guards firing 3 burst fire in random duration.
-![guards chasing and firing at player](https://user-images.githubusercontent.com/28482025/51083450-4c793800-173c-11e9-8735-79fe88a0bc37.png)
 
-### 2 Spawning meshes and debug spheres
-Meshes (Trees, barrels, sacks ant etc.) spawning at random location in a Tile.
-Tile is place fixed sizes with walls. 
-Game spawning infinite amount of Tiles. Player can move through this Tiles.
-![spawning meshes and debug spheres png](https://user-images.githubusercontent.com/28482025/51083466-aaa61b00-173c-11e9-884c-4bf12a8a891c.png)
+| Some screnshots | Some screnshots |
+| --- | --- |
+| `Guards chasing and firing at player Guards patrolling and walking their route. When Guards see player (player close to) or hear player (Player jumps or firing) they chasing him, firing in run. When they close to player, they stoping and firing. Guards firing 3 burst fire in random duration. ` ![guards chasing and firing at player](https://user-images.githubusercontent.com/28482025/51083450-4c793800-173c-11e9-8735-79fe88a0bc37.png) | `Meshes (Trees, barrels, sacks ant etc.) spawning at random location in a Tile. Tile is place fixed sizes with walls. Game spawning infinite amount of Tiles. Player can move through this Tiles.` ![spawning meshes and debug spheres png](https://user-images.githubusercontent.com/28482025/51083466-aaa61b00-173c-11e9-884c-4bf12a8a891c.png) |
+
 
 ## Comments for Commits:
 
@@ -39,9 +33,6 @@ Added Nav Mesh Volume
 Added Third Person Character to project and placed it to level map.
 
 ### 7 Added Behavior Tree and BlackBoard Data
-
-### 8 Added 2 patrol points and patrolling behavior (Blueprints).
-Third person character now patrolling (running) between 2 points!
 
 ### 9 Added Blueprint functions to sequentially move along an array of patrol points defined on the map to each platoon soldier.
 Now many platoon soldiers run endlessly around the map, each moving from point to point, each with its own set of points.
