@@ -170,5 +170,6 @@ Now we have nice random locations!
 ### TG 50. Spawning Debug Trace Channel Spheres to test debug collisions of meshes.
 Now we see in spawning Tiles debug spheres. This spheres we wil use later for more intelegent procedural spawning objects.
 
-
+### TG 51. Fixed bugs, missing some assets in the Blueprint assembly.
+Unreal Editor crashes when starting a game. Now all ok, bugs fixed, starting game works correctly.
 
