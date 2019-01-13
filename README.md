@@ -19,7 +19,7 @@ Tile is place fixed sizes with walls.
 Game spawning infinite amount of Tiles. Player can move through this Tiles.
 ![spawning meshes and debug spheres png](https://user-images.githubusercontent.com/28482025/51083466-aaa61b00-173c-11e9-884c-4bf12a8a891c.png)
 
-## In This Section:
+## Comments for Commits:
 
 ### 1 Testing Grounds Introduction
 This is first commit, I make new C++ project in Unreal Editor 4.21
