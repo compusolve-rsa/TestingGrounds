@@ -20,7 +20,7 @@ This project is based on Unreal 4.21
 | --- | --- |
 | `Guards chasing and firing at player Guards patrolling and walking their route. When Guards see player (player close to) or hear player (Player jumps or firing) they chasing him, firing in run. When they close to player, they stoping and firing. Guards firing 3 burst fire in random duration. ` ![guards chasing and firing at player](https://user-images.githubusercontent.com/28482025/51083450-4c793800-173c-11e9-8735-79fe88a0bc37.png) | `Guards may die (player shoots them) falling to the ground holding weapons in their hands` ![guards may die falling to the ground in arms](https://user-images.githubusercontent.com/28482025/51083697-f908e900-173f-11e9-92e5-60413846e116.png) |
 | `Player dying falls to the ground with a weapon in hand. The third-person mesh is lying on the ground. First-person mesh hangs above ground. So far, there has not been worked out a method of changing from a first-person view to a third-person view. Meshes themselves work correctly with all the animation. As you noticed, the Guardians have meshes from both the first person and the third person. Moreover, the player and the guard have same Blueprint.`![player dying falls to the ground with a weapon in hand](https://user-images.githubusercontent.com/28482025/51084132-da5a2080-1746-11e9-9a37-6e42fc44eae4.png) | `Meshes (Trees, barrels, sacks ant etc.) spawning at random location in a Tile. Tile is place fixed sizes with walls. Game spawning infinite amount of Tiles. Player can move through this Tiles.` ![spawning meshes and debug spheres png](https://user-images.githubusercontent.com/28482025/51083466-aaa61b00-173c-11e9-884c-4bf12a8a891c.png) |
-| `Green barrier dividing Tiles. Player can move through it to next Tile. When moving to next Tile, Game generating forward following Tile with random generating meshes at correct locations do not intersect each other.` ![green barrier dividing tiles](https://user-images.githubusercontent.com/28482025/51083723-4be2a080-1740-11e9-8eaa-1e6a349f1592.png) | `Red barrier dividing Tiles. Player can not move through it to the past Tile. Player can move only to forward Tile.` ![red barrier dividing tiles player can not move through it](https://user-images.githubusercontent.com/28482025/51083728-759bc780-1740-11e9-9152-021def0f9af3.png) |
+| `Green transparent barrier dividing Tiles. Player can move through it to next Tile. When moving to next Tile, Game generating forward following Tile with random generating meshes at correct locations do not intersect each other.` ![green barrier dividing tiles](https://user-images.githubusercontent.com/28482025/51083723-4be2a080-1740-11e9-8eaa-1e6a349f1592.png) | `Red barrier dividing Tiles. Player can not move through it to the past Tile. Player can move only to forward Tile.` ![red barrier dividing tiles player can not move through it](https://user-images.githubusercontent.com/28482025/51083728-759bc780-1740-11e9-9152-021def0f9af3.png) |
 
 ## Comments for Commits:
 
@@ -118,7 +118,7 @@ This will help to do faster commits with Git LFS system.
 
 ### TG 30. Updated .gitattributes to track only static sub folder and all it content.
 Now git LFS give only files in Static folder. All other staff in other folders will give Git commits.
-Remind, in future, all bif files I will take to Static folder.
+Remind, in future, all big files I will take to Static folder.
 
 ### TG 31. Moved some LFS assets to Dynamic folder from Static folder.
 This assets will frequently changing in future. LFS will not track this assets. This assets will move to Git commits directly.
@@ -165,7 +165,7 @@ Also renamed some assets to do [UE4 Style Guide](https://github.com/Allar/ue4-st
 Now we have C++ class of Character with fire function, calling Fire function of Gun C++ class
 
 ### TG 45. Redoing Architecture of calling Fire function.
-Earlier fire function called fron animation event. Now fire function called from method in C++ Character class.
+Earlier fire function called from animation event. Now fire function called from method in C++ Character class.
 Now our Guards can do rapid, very rapid firing!
 
 ### TG 46. Our Guards now make Burst firing 3 bullets in rapid random time sequence.
@@ -185,4 +185,3 @@ Now we see in spawning Tiles debug spheres. This spheres we wil use later for mo
 
 ### TG 51. Fixed bugs, caused by missing some assets in the Blueprint assembly.
 Unreal Editor crashes when starting a game. Now all ok, bugs fixed, starting game works correctly.
-
