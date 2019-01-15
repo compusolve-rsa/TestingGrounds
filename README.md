@@ -191,3 +191,6 @@ Fixed issues with merging changes to ReadMe files in Git and local changes.
 
 ### TG 53. Randomising Rotation & Scale of generated assets.
 Now assets generate and place in a Tile in random places with random rotation and Scale (rocks). Also added much more generating grass for more beatiful terrain.
+
+### TG 54. Flyweight Pattern for Grass. Now we have beatiful grass carpet is like a solid meadow grass covering the ground. Swaying in the wind.
+This is done by new C++ class Grass added as component to Tile Blueprint. In this class we have function at begin play that generate Hierarchical static mesh instances of grass in great amount. This gives a powerful performance boost to the application and a beautiful view.
