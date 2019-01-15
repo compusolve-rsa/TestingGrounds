@@ -188,3 +188,6 @@ Unreal Editor crashes when starting a game. Now all ok, bugs fixed, starting gam
 
 ### TG 52.1. Changed ReadMe in English, added ReadMe in Russian.
 Fixed issues with merging changes to ReadMe files in Git and local changes.
+
+### TG 53. Randomising Rotation & Scale of generated assets.
+Now assets generate and place in a Tile in random places with random rotation and Scale (rocks). Also added much more generating grass for more beatiful terrain.
